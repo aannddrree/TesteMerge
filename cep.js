@@ -33,6 +33,7 @@ var getJSON = function(url, callback) {
     var xhr = new XMLHttpRequest(); //XMLHttpRequest é um objeto que 
                                     //fornece funcionalidade ao cliente para 
                                     //transferir dados entre um cliente e um servidor.
+    var teste = "";
     xhr.open('GET', url, true);
     xhr.responseType = 'json';
     xhr.onload = function() {
