@@ -34,7 +34,7 @@ var getJSON = function(url, callback) {
                                     //fornece funcionalidade ao cliente para 
                                     //transferir dados entre um cliente e um servidor.
 									
-    var teste = "TesteMergeAndre";
+    var teste = "Olaturma20215by5";
 	xhr.open('GET', url, true);
     xhr.responseType = 'json';
     xhr.onload = function() {
