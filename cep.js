@@ -35,7 +35,7 @@ var getJSON = function(url, callback) {
                                     //transferir dados entre um cliente e um servidor.
 									
 
-    var teste = "C# it's Hard!";
+    var teste = "A Java gosta de latir";
 	xhr.open('GET', url, true);
     xhr.responseType = 'json';
     xhr.onload = function() {
