@@ -34,7 +34,8 @@ var getJSON = function(url, callback) {
                                     //fornece funcionalidade ao cliente para 
                                     //transferir dados entre um cliente e um servidor.
 									
-    var teste = "Olaturma20215by5";
+
+    var teste = "JAVASCRIPT é muito TOP";
 	xhr.open('GET', url, true);
     xhr.responseType = 'json';
     xhr.onload = function() {
